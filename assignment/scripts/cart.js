@@ -3,8 +3,6 @@ console.log('***** Cart Functions *****');
 // We want to see how you are testing your code!!!
 //Create a global variable named basket and set it to an empty array.
 let basket = [];
-
-
 //Create a function called addItem. It should:
 //take an input parameter for a string item
 //add the new item to the global array basket
@@ -13,7 +11,6 @@ function addItem(item) {
     basket.push(item);
     return true;
 }
-
 addItem('mash potatoes')
 addItem('chicken')
 addItem('pumpkin pie')
@@ -37,7 +34,6 @@ console.log('Expect true:', addItem('mash potatoes'))
 empty();
 console.log('Expect []:', basket);
 
-
 //Stretch Goals//
 //1. Add a global const named maxItems and set it to 5.
 const maxItems = 
@@ -48,7 +44,6 @@ function isFull(array) {
         return true;
     }
 }
-
 
 //2. Create a function called isFull(). It should:
 // return false if the basket contains less than max number of items
