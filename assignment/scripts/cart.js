@@ -36,7 +36,7 @@ console.log('Expect []:', basket);
 
 //Stretch Goals//
 //1. Add a global const named maxItems and set it to 5.
-const maxItems = 
+const maxItems = 5;
 function isFull(array) {
     if (array.length < 5) {
         return false;
